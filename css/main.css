@@ -3,6 +3,12 @@
 WSP COMPONENT LIBRARY STYLESHEET
 ================================================================================ */
 
+img{
+    width:80%;
+    margin: 0 auto;
+    padding-left: 20%;
+    padding-top:10%;
+}
 #girl{
     margin:0 auto;
     text-align: center;
