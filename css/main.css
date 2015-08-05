@@ -3,7 +3,10 @@
 WSP COMPONENT LIBRARY STYLESHEET
 ================================================================================ */
 
-
+#girl{
+    font-size: 5rem;
+    margin:0 auto;
+}
 
 /* HEADER SPECIFIC ======================================== */
 
