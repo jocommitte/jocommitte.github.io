@@ -2,22 +2,125 @@
 ================================================================================
 WSP COMPONENT LIBRARY STYLESHEET
 ================================================================================ */
-
-img{
-    width:80%;
-    margin: 0 auto;
-    padding-left: 20%;
-    padding-top:10%;
-}
-#girl{
+body{
+    max-width: 1440px;
+    font:100% Helvetica Neu, sans-serif;
     margin:0 auto;
-    text-align: center;
-    width:80%;
-    font-size: 5rem;
+    background-color: #0F7885;
+}
+#wrapper{
+    max-width:960px;
+    margin: 0 auto;
+    /*overflow:hidden;*/
+
 }
 
 /* HEADER SPECIFIC ======================================== */
+header{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #282828;
+
+    overflow: hidden;
+}
+#logo{
+    float:left;
+    padding:2%;
+}
+#title{
+    margin: 5% 0 1% 10%;
+    color: #B3DEE8;
+    width:34.05%;
+
+}
+#title > h1{
+    font:  4.66em/100% "Contrail One", Helvetica, sans-serif ;
+    padding: 0;
+    margin: 0;
+}
+#title > h2{
+    text-align:right;
+}
+
+nav{
+    clear:both;
+    padding:0;
+    margin: 1% 1% 0 15%;
+    width:100%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width:100%;
+    text-align:right;
+    /*background-color:#B3DEE8;*/
+}
+
+li {
+    float: left;
+    width:8.333333333%;
+
+}
+
+a:link, a:visited {
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    color: #0F7885;
+    /*background-color:#B3DEE8 ;*/
+    text-align: center;
+    padding: 3.33333333333%;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover, a:active {
+    background-color: #0F7885;
+    color: #B3DEE8;
+}
 
 /* ABOUT SPECIFIC ======================================== */
+#me{
+    margin: 5% 0 5% 0;
+    width:99%;
+    overflow:hidden;
+    background-color: silver;
+    padding: 2% .104166666667% 5% 2.041666666667%;
+    border: 2px solid black;
+
+}
+#myLife{
+    float:left;
+    width:48.875%;
+    margin-right: 1.04166666667%;
+}
+.lifeTitle{
+    margin:0;
+    padding-bottom:2%;
+    text-align: center;
+    font-size: 3em;
+    line-height: 100%;
+
+}
+.lifeTitle + p{
+    text-align: left;
+    font-size: 1.2em;
+    text-indent: 5%;
+    margin-bottom: 1%;
+}
+#myPic{
+    width:46.875%;
+    float:right;
+    overflow:hidden;
+    padding-right:2.04166666667%;
+
+}
+#myPic > img{
+    width:100%;
+    border: 2px solid black;
+}
 
 /* COMPONENTS SPECIFIC ======================================== */
