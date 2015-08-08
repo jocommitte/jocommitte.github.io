@@ -81,13 +81,15 @@ a:hover, a:active {
     background-color: #0F7885;
     color: #B3DEE8;
 }
-
+.titleCenter + .para{
+    padding-bottom: 14%;
+}
 /* ABOUT SPECIFIC ======================================== */
-#me{
+.me{
     margin: 5% 0 5% 0;
-    width:99%;
+    width:100%;
     overflow:hidden;
-    background-color: silver;
+    background-color: rgba(179, 222, 232,.8);
     padding: 2.2% .104166666667% 2% 2.041666666667%;
     border: 2px solid black;
 
@@ -97,7 +99,7 @@ a:hover, a:active {
     width:48.875%;
     margin-right: 1.04166666667%;
 }
-.lifeTitle{
+.titleCenter{
     margin:0;
     padding-bottom:2%;
     text-align: center;
@@ -122,8 +124,58 @@ a:hover, a:active {
     width:100%;
     border: 2px solid black;
 }
-#links{
-    padding:5% 5% 0 5%;
+.cta a{
+    padding:3% 3% 3% 3%;
+    margin:2% auto;
+    background-color: #0F7885;
+    color: #B3DEE8;
+    border:2px solid #B3DEE8;
+
+}
+.cta a:hover{
+    color: #0F7885;
+    background-color:#B3DEE8;
+    border: 2px solid #0F7885;
 }
 
 /* COMPONENTS SPECIFIC ======================================== */
+
+.component1{
+    margin: 5% 0 5% 0;
+    width:100%;
+    overflow:hidden;
+    background-color: rgba(179, 222, 232,.8);
+    border: 2px solid black;
+    padding:2%;
+}
+.title{
+    font-size:3em;
+    text-align: center;
+    line-height: 100%;
+    padding-bottom:2%;
+}
+.titleCenter1{
+    margin:2%;
+    text-align: center;
+    font-size: 2.5em;
+    line-height: 100%;
+}
+.imageTop{
+    margin: 0 auto;
+
+}
+.imageTop > img{
+    width: 100%;
+    border:2px solid black;
+    -webkit-box-shadow: 10px 10px 10px #0F7885;
+    -moz-box-shadow: 10px 10px 10px #0F7885;
+    box-shadow: 10px 10px 20px #0F7885;
+}
+.para{
+    margin:0 auto;
+    text-indent: 5%;
+    text-align: justify;
+    width: 95%;
+    padding:2%;
+}
+
