@@ -26,10 +26,10 @@ header{
 }
 #logo{
     float:left;
-    padding:2%;
+    padding:2% 2% 0 2%;
 }
 #title{
-    margin: 5% 0 1% 10%;
+    margin: 5% 0 1% 15%;
     color: #B3DEE8;
     width:34.05%;
 
@@ -88,7 +88,7 @@ a:hover, a:active {
     width:99%;
     overflow:hidden;
     background-color: silver;
-    padding: 2% .104166666667% 5% 2.041666666667%;
+    padding: 2.2% .104166666667% 2% 2.041666666667%;
     border: 2px solid black;
 
 }
@@ -107,7 +107,7 @@ a:hover, a:active {
 }
 .lifeTitle + p{
     text-align: left;
-    font-size: 1.2em;
+    font-size: 1.13em;
     text-indent: 5%;
     margin-bottom: 1%;
 }
@@ -121,6 +121,9 @@ a:hover, a:active {
 #myPic > img{
     width:100%;
     border: 2px solid black;
+}
+#links{
+    padding:5% 5% 0 5%;
 }
 
 /* COMPONENTS SPECIFIC ======================================== */
