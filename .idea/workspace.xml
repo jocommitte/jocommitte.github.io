@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="94e51cf6-1a71-4223-9d34-f268e226f3b3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/3/component.html" afterPath="$PROJECT_DIR$/components/3/component.html" />
-    </list>
+    <list default="true" id="94e51cf6-1a71-4223-9d34-f268e226f3b3" name="Default" comment="" />
     <ignored path="jocommitte.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,8 +61,8 @@
       <file leaf-file-name="component.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/components/3/component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.31914893">
-              <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+            <state vertical-scroll-proportion="0.4587766">
+              <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -393,8 +391,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/components/3/component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31914893">
-          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+        <state vertical-scroll-proportion="0.4587766">
+          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
           <folding />
         </state>
       </provider>
