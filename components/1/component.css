@@ -1,8 +1,85 @@
-/* 
+html{
+    font-size:62.5%;
+}
+body{
+    font: 400 1.6em/1.4 "Alike", serif;
+}
+/*
 ================================================================================
 COMPONENT STYLESHEET
 ================================================================================ */
 
+@font-face {
+    font-family: 'Alike';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Alike'), local('Alike-Regular'), url(http://fonts.gstatic.com/s/alike/v7/kqk3LfrNwZiEUPU2s9RM-KCWcynf_cDxXwCLxiixG1c.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+@font-face {
+    font-family: 'Fredericka the Great';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Fredericka the Great'), local('FrederickatheGreat'), url(http://fonts.gstatic.com/s/frederickathegreat/v5/7Es8Lxoku-e5eOZWpxw18k-V1Rr5FrXsa4CVETJgBSz3rGVtsTkPsbDajuO5ueQw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
 /* HEADER ======================================== */
+
+header{
+    margin: 0 auto;
+    background: repeat url(img/bg1.jpg);
+    border-bottom: 1px solid #096b67;
+}
+span{
+    display:inline-block;
+    background: url(img/paw.png) no-repeat ;
+    background-size:3rem;
+    text-indent:-9999999px;
+    width:3rem;
+}
+h1{
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 7.8rem;
+    line-height: 5.5rem;
+    font-weight:500;
+    color: #fff;
+    padding:6% 0 0 10%;
+    width:60%;
+    position:absolute;
+    letter-spacing: .05rem;
+}
+em{
+    display:block;
+    font-family:'Alike', serif;
+    font-style:normal;
+    font-weight:400;
+    font-size:2rem;
+    letter-spacing:.05rem;
+}
+
+h2{
+    position:relative;
+    padding-left:78%;
+    padding-top:6.6%;
+    font-size:3.1rem;
+    color:white;
+
+}
+p{
+    position:relative;
+    padding-left:78%;
+    margin-bottom:5%;
+    font-size:2.8rem;
+    color:white;
+
+}
+p::after{
+    content: url(img/header-img.png);
+    position:absolute;
+    bottom: -112px;
+    left:34%;
+}
+
+
 
 /* HEADER ======================================== */
