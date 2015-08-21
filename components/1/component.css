@@ -29,55 +29,41 @@ header{
     margin: 0 auto;
     background: repeat url(img/bg1.jpg);
     border-bottom: 1px solid #096b67;
-}
-span{
-    display:inline-block;
-    background: url(img/paw.png) no-repeat ;
-    background-size:3rem;
-    text-indent:-9999999px;
-    width:3rem;
+    position:relative;
 }
 h1{
-    font-family: 'Fredericka the Great', cursive;
-    font-size: 7.8rem;
-    line-height: 5.5rem;
-    font-weight:500;
-    color: #fff;
-    padding:6% 0 0 10%;
-    width:60%;
+    background:url(img/logo.png)no-repeat;
+    text-indent: -9999px;
     position:absolute;
-    letter-spacing: .05rem;
-}
-em{
-    display:block;
-    font-family:'Alike', serif;
-    font-style:normal;
-    font-weight:400;
-    font-size:2rem;
-    letter-spacing:.05rem;
+    padding:6rem;
+    top:7rem;
+    left:13rem;
+    width:40rem;
 }
 
 h2{
     position:relative;
-    padding-left:78%;
-    padding-top:6.6%;
+    text-align:right;
+    padding-right:19rem;
+    padding-top:9rem;
     font-size:3.1rem;
     color:white;
 
 }
 p{
     position:relative;
-    padding-left:78%;
-    margin-bottom:5%;
-    font-size:2.8rem;
+    text-align:right;
+    padding-right:16.3rem;
+    margin-bottom:7rem;
+    font-size:2.6rem;
     color:white;
 
 }
-p::after{
+header::after{
     content: url(img/header-img.png);
     position:absolute;
-    bottom: -112px;
-    left:34%;
+    top:2rem;
+    left:49rem;
 }
 
 
