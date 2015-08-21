@@ -71,11 +71,10 @@ li > ul>li:nth-child(21)>a{
     left:50rem;
     text-align:center;
     font-size:10rem;
-    
+
 
 }
 li > ul>li:nth-child(21)>a:hover{
-    /*text-indent:-9999px;*/
     color:yellow;
     text-decoration: underline;
 
