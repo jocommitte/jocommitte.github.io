@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="94e51cf6-1a71-4223-9d34-f268e226f3b3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/6/component.css" afterPath="$PROJECT_DIR$/components/6/component.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/6/component.html" afterPath="$PROJECT_DIR$/components/6/component.html" />
     </list>
     <ignored path="jocommitte.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -77,8 +76,8 @@
       <file leaf-file-name="component.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/components/6/component.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.63829786">
-              <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.86398965">
+              <caret line="109" column="16" selection-start-line="109" selection-start-column="16" selection-end-line="109" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -799,14 +798,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/6/component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.7916665">
-          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/4/component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.90196">
@@ -815,10 +806,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/components/6/component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.7916665">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/components/6/component.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.63829786">
-          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.86398965">
+          <caret line="109" column="16" selection-start-line="109" selection-start-column="16" selection-end-line="109" selection-end-column="16" />
           <folding />
         </state>
       </provider>

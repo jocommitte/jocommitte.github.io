@@ -19,7 +19,7 @@ section{
 article{
     width:100%;
     clear:both;
-    border-bottom:darkgrey dotted 1px;
+    border-bottom:rgba(255,255,255,.1) dotted 1px;
     padding:3rem 0;
 }
 h2{
@@ -94,12 +94,18 @@ div>p>a:last-of-type{
     background:black;
     padding:1rem;
     color:white;
-    font-size:1.6rem;
+    font-size:1.3rem;
+    text-transform: uppercase;
+
+}
+div>p>a:last-of-type:hover{
+    background:white;
+    color:black;
 
 }
 div p:last-of-type{
     padding:3rem 0;
 }
 div p:first-of-type{
-    padding:2.5rem 0;
+    padding:2.65rem 0;
 }
