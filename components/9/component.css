@@ -46,14 +46,14 @@ aside{
     /*padding:0 5rem 0 0;*/
 }
 img{
-    width:370px;
+    width:37rem;
 }
 input{
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     font: 400 2.2rem "Roboto", sans-serif;
-    line-height: 22px;
+    line-height: 2.2rem;
     padding: 1.2rem 2rem 1.2rem 2rem;
     color: #717475;
     background-color: #3c3f40;
@@ -62,7 +62,7 @@ input{
     border-radius: 0;
     outline: none;
     -webkit-appearance: none;
-    height: 47px;
+    height: 4.7rem;
     text-rendering: auto;
     letter-spacing: normal;
     word-spacing: normal;
@@ -80,7 +80,7 @@ textarea{
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     font: 400 2.2rem "Roboto", sans-serif;
-    line-height: 22px;
+    line-height: 2.2rem;
     padding: 1.25rem 2rem 1.25rem;
     color: #717475;
     background-color: #3c3f40;
@@ -90,7 +90,7 @@ textarea{
     outline: none;
     -webkit-appearance: none;
     resize: none;
-    height: 117px;
+    height: 11.7rem;
     overflow: auto;
     margin:.5rem 0;
 }
