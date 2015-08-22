@@ -2,7 +2,74 @@
 ================================================================================
 COMPONENT STYLESHEET
 ================================================================================ */
-
+html{
+    font-size:62.5%;
+}
+body{
+    font: 400 1.6em/1.4 "PT Sans", sans-serif;
+}
 /* HEADER ======================================== */
 
 /* HEADER ======================================== */
+footer{
+    width:100%;
+    background-color:rgb(25, 29, 43);
+    padding:2rem 10rem;
+}
+p{
+    padding: 0;
+    font: 14px/18px 'Roboto Slab', serif;
+    color: #fff;
+    text-transform: none;
+    text-align: left;
+    float: none;
+    margin: 0;
+    display:inline-block;
+}
+p a{
+    color: #fff;
+    transition: all 0.3s ease 0s;
+}
+p a:hover{
+    color: #5dd7d4;
+
+}
+ul{
+    padding:0 0 0 50rem;
+    display:inline-block;
+    margin-top:10rem;
+}
+ul li{
+    display:inline-block;
+}
+li a{
+    display:block;
+    width:4rem;
+    height:4rem;
+    text-indent:-9999px;
+    padding:2rem 2rem 0 3rem;
+    transition: all 0.3s ease 0s;
+}
+a[href*=facebook]{
+    background:url(img/facebook.png) no-repeat;
+    background-size: 4rem;
+}
+a[href*=twitter]{
+    background:url(img/twitter.png) no-repeat;
+    background-size: 4rem;
+}
+a[href*=pinterest]{
+    background:url(img/pinterest.png)no-repeat;
+    background-size: 4rem;
+}
+a[href*=google]{
+    background:url(img/google.png)no-repeat;
+    background-size: 4rem;
+}
+a[href*=instagram]{
+    background:url(img/instagram.png)no-repeat;
+    background-size: 4rem;
+}
+li a:hover{
+    transform: rotateY(360deg);
+}
