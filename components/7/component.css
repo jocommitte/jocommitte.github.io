@@ -3,6 +3,143 @@
 COMPONENT STYLESHEET
 ================================================================================ */
 
+html{
+    font-size:62.5%;
+}
+body{
+    font: 400 1.4em/2.4em "Open Sans", sans-serif;
+}
 /* HEADER ======================================== */
 
 /* HEADER ======================================== */
+form{
+    width: 53.8%;
+    text-align:center;
+    margin:10rem auto;
+    background-color: rgb(66, 73, 85);
+    position:relative;
+}
+h2{
+    color: #fff;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 100;
+    line-height: 1;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    display:block;
+    padding: 10rem 0 2rem 0;
+}
+span{
+    display:block;
+}
+
+
+input{
+    cursor: text;
+    text-transform: uppercase;
+    font-weight: 200;
+    padding: 3.3rem 3.3rem 3.3rem 10rem;
+    line-height: 2rem;
+    color:black;
+    background:transparent;
+    opacity: 1;
+    margin:0;
+    -moz-transition: 0.3s all ease;
+    -o-transition: 0.3s all ease;
+    -webkit-transition: 0.3s all ease;
+    transition: 0.3s all ease;
+    width:44rem;
+}
+li:nth-child(2){
+    background:url(img/name.png) no-repeat;
+    width:44rem;
+    margin:2rem auto;
+    background-color:white;
+    background-size: 2rem;
+    background-position:5.3rem 3rem;
+
+}li:nth-child(3){
+     background:url(img/mail.png) no-repeat;
+     width:44rem;
+     margin:2rem auto;
+     background-color:white;
+     background-size: 2.5rem;
+     background-position:5rem 3.4rem;
+ }
+li:nth-child(4){
+    background:url(img/phone.png) no-repeat;
+    width:44rem;
+     margin:2rem auto;
+     background-color:white;
+    background-size: 3rem;
+    background-position:4.8rem 3rem;
+ }
+button{
+    position: relative;
+    display: inline-block;
+    width: 30rem;
+    word-spacing: normal;
+    font-size: 1.5rem;
+    font-weight: 200;
+    line-height: 1.8rem;
+    padding: 3.3rem 9.2rem 3.5rem 1rem;
+    text-transform: uppercase;
+    color: #fff;
+    background: #96ca2d;
+    z-index: 2;
+    -moz-transition: 0.3s all ease;
+    -o-transition: 0.3s all ease;
+    -webkit-transition: 0.3s all ease;
+    transition: 0.3s all ease;
+    box-sizing: border-box;
+    border: none;
+    margin: 3rem;
+    outline: none;
+    outline-offset: 0;
+    overflow: visible;
+    cursor: pointer;
+    -webkit-appearance: none;
+}
+button::before{
+    content:url(img/over.png);
+    position: absolute;
+    background-size: 3rem;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 21.2rem;
+    font-size: 2.8rem;
+    line-height: 8.6rem;
+    color: #fff;
+    background-color:rgb(92, 100, 119);
+    -moz-transition: 0.3s all ease;
+    -o-transition: 0.3s all ease;
+    -webkit-transition: 0.3s all ease;
+    transition: 0.3s all ease;
+}
+button:hover > button::before, button::after{
+    background: #96ca2d;
+    -moz-transition: 0.3s color ease;
+    -o-transition: 0.3s color ease;
+    -webkit-transition: 0.3s color ease;
+    transition: 0.3s color ease;
+}
+button::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 212px;
+    font-size: 28px;
+    line-height: 70px;
+    background: #5c6678;
+    z-index: -1;
+    -moz-transition: 0.3s color ease;
+    -o-transition: 0.3s color ease;
+    -webkit-transition: 0.3s color ease;
+    transition: 0.3s color ease;
+}
