@@ -3,9 +3,10 @@
 WSP COMPONENT LIBRARY STYLESHEET
 ================================================================================ */
 body{
-    max-width: 1440px;
+    /*max-width: 1440px;*/
     font:100% Helvetica Neu, sans-serif;
     margin:0 auto;
+    height:100%;
     background-color: #0F7885;
 }
 #wrapper{
@@ -14,7 +15,7 @@ body{
     /*overflow:hidden;*/
 
 }
-section, article, header, footer, nav, aside, hgroup {
+section, article, header, footer, nav, aside, {
     display: block;
 }
 
@@ -24,31 +25,29 @@ header{
     margin: 0;
     padding: 0;
     background-color: #282828;
-
     overflow: hidden;
 }
-#logo{
+
+header img{
     float:left;
     padding:2% 2% 0 2%;
 }
-#title{
-    margin: 5% 0 1% 15%;
+ header>h1,header>h2 {
     color: #B3DEE8;
-    width:34.05%;
+    width:40rem;
+    text-align:center;
 
 }
-#title > h1{
+header> h1{
+    margin:5rem 0 0 3rem;
     font:  4.66em/100% "Contrail One", Helvetica, sans-serif ;
     padding: 0;
-    margin: 0;
 }
-#title > h2{
+header> h2{
     text-align:right;
 }
 
 nav{
-    clear:both;
-    padding:0;
     margin: 1% 1% 0 15%;
     width:100%;
 }
@@ -144,8 +143,8 @@ a:hover, a:active {
 /* COMPONENTS SPECIFIC ======================================== */
 
 .component1{
-    margin: 5% 0 5% 0;
-    width:100%;
+    margin: 5% auto;
+    width:80%;
     overflow:hidden;
     background-color: rgba(179, 222, 232,.8);
     border: 2px solid black;
@@ -181,4 +180,40 @@ a:hover, a:active {
     width: 95%;
     padding:2%;
 }
+.background {
+    background-repeat:no-repeat;
+    /* custom background-position */
+    background-position:50% 50%;
+    /* ie8- graceful degradation */
+    background-position:50% 50%9 !important;
+}
+/* fullscreen setup */
+
+.content-a {
+    width:80%;
+    min-height:100%;
+    border-bottom:2px solid black;
+    overflow:hidden;
+    display:table;
+    margin:0 auto;
+}
+/*.not-fullscreen,*/
+/*.not-fullscreen .content-a,*/
+/*.fullscreen.not-overflow,*/
+/*.fullscreen.not-overflow .content-a {*/
+    /*/!*height:100%;*!/*/
+    /*overflow:hidden;*/
+/*}*/
+
+/* content centering styles */
+/*.content-a {*/
+    /*display:table;*/
+    /*margin:0 auto;*/
+/*}*/
+/*.content-b {*/
+    /*display:table-cell;*/
+    /*position:relative;*/
+    /*vertical-align:middle;*/
+    /*text-align:center;*/
+/*}*/
 

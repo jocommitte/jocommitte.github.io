@@ -5,17 +5,14 @@
     <link rel="stylesheet" type="text/css" href="css/reset.css" />
     <link rel="stylesheet" type="text/css" href="css/main.css" />
     <link href="http://fonts.googleapis.com/css?family=Contrail+One" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 </head>
 <body>
 <!-- Header -->
 <header>
-    <div id="logo">
-        <img src="img/logo.png" alt="Committe Designs Logo">
-    </div>
-    <div id="title">
-        <h1>Justin Committe</h1>
-        <h2>Web Standards Project</h2>
-    </div>
+    <img src="img/logo.png" alt="Committe Designs Logo">
+    <h1>Justin Committe</h1>
+    <h2>Web Standards Project</h2>
     <nav>
         <ul>
             <li><a href="#1">Header</a></li>
@@ -31,9 +28,9 @@
         </ul>
     </nav>
 </header>
-<div id="wrapper">
+<div class="not-fullscreen background parallax" style="background-image:url('http://www.minimit.com/images/picjumbo.com_IMG_6648.jpg');" data-img-width="1600" data-img-height="1064" data-diff="100">
     <!-- About -->
-    <section class="me">
+    <section class="me content-a">
         <div id="myLife">
             <h2 class="titleCenter">About Me</h2>
             <p class="para">Hello, my name is Justin Committe.  I began in the Web Design and Development Campus program in late 2011.
@@ -53,326 +50,421 @@
             <img src="img/meSnake.jpg" alt="Justin Committe | Snake">
         </div>
     </section>
-    <!-- Blog, Components -->
-    <section class="component1 " id="1">
-        <div class="top">
-            <h2 class="title">Header</h2>
-            <div class="imageTop">
-                <img src="components/1/component.jpg" alt="header">
-            </div>
+</div>
+<!-- Blog, Components -->
+
+<section class="component1" id="1">
+    <div class="top">
+        <h2 class="title">Header</h2>
+        <div class="imageTop">
+            <img src="components/1/component.jpg" alt="header">
         </div>
-        <article class="bottom">
-            <h2 class="titleCenter1">Target Audience</h2>
-            <p class="para">The target audience here is women from the ages of 40-65.  Or gay men from the age of 24-50.
-                The income of this target audience is going to be fairly high because French Bulldogs are one of the most expensive
-                kind of dogs to buy.  They are small and cute and even though they are too big to go in a purse, which younger women love to do,
-                they are small enough to be enticing to these women and men.  They probably live in urban environments and are fairly social in their lives.  </p>
-            <h2 class="titleCenter1">Client Goals | User Needs</h2>
-            <p class="para">The goal of the client is to portray information about peoples pets.  They do this by showcasing certain
-                vets.  The vets are able to advertise on the site.  Advertising is how this site gets their money.  They bring the user in
-                and then they give them options on how to accomplish their goals, which in the end are taking good care of their dogs.
-                The user is searching for information about how they can be better pet owners.  The fine line here is giving enough
-                information that the user is satisfied with the reliability of information, while at the same time encouraging the
-                process of hooking up with one of the vets on the site.  They also advertise for groomers and pet carriers.  "I trust this
-                site, so I'm going to use their people."</p>
-            <h2 class="titleCenter1">Design Critique</h2>
-            <p class="para">This is a veterinary website and they want you to feel safe about leaving your pet with them.
-                They chose the color green for the background color because it symbolizes safety, harmony, growth.  Green has
-                a healing power and what better feeling to get when you're looking for a hospital for your pet than healing?
-                It's a good thing that they stayed away from yellow-green because it puts forth a feeling of sickness and jealousy.
-                They used a kind of childish serif font which manages to put forth a feeling of reliability, while at the same
-                time making them seem approachable.  Then there is a picture of the animals they work with.  The picture is a
-                cute image of some French Bulldog puppies which continues to tell you who they are and grabs your attention.</p>
-        </article>
-        <div class="cta">
-            <h2><a href="http://www.templatemonster.com/demo/55156.html">Live Demo</a></h2>
+    </div>
+    <article class="bottom">
+        <h2 class="titleCenter1">Target Audience</h2>
+        <p class="para">The target audience here is women from the ages of 40-65.  Or gay men from the age of 24-50.
+            The income of this target audience is going to be fairly high because French Bulldogs are one of the most expensive
+            kind of dogs to buy.  They are small and cute and even though they are too big to go in a purse, which younger women love to do,
+            they are small enough to be enticing to these women and men.  They probably live in urban environments and are fairly social in their lives.  </p>
+        <h2 class="titleCenter1">Client Goals | User Needs</h2>
+        <p class="para">The goal of the client is to portray information about peoples pets.  They do this by showcasing certain
+            vets.  The vets are able to advertise on the site.  Advertising is how this site gets their money.  They bring the user in
+            and then they give them options on how to accomplish their goals, which in the end are taking good care of their dogs.
+            The user is searching for information about how they can be better pet owners.  The fine line here is giving enough
+            information that the user is satisfied with the reliability of information, while at the same time encouraging the
+            process of hooking up with one of the vets on the site.  They also advertise for groomers and pet carriers.  "I trust this
+            site, so I'm going to use their people."</p>
+        <h2 class="titleCenter1">Design Critique</h2>
+        <p class="para">This is a veterinary website and they want you to feel safe about leaving your pet with them.
+            They chose the color green for the background color because it symbolizes safety, harmony, growth.  Green has
+            a healing power and what better feeling to get when you're looking for a hospital for your pet than healing?
+            It's a good thing that they stayed away from yellow-green because it puts forth a feeling of sickness and jealousy.
+            They used a kind of childish serif font which manages to put forth a feeling of reliability, while at the same
+            time making them seem approachable.  Then there is a picture of the animals they work with.  The picture is a
+            cute image of some French Bulldog puppies which continues to tell you who they are and grabs your attention.</p>
+    </article>
+    <div class="cta">
+        <h2><a href="http://www.templatemonster.com/demo/55156.html">Live Demo</a></h2>
+    </div>
+    <div class="cta">
+        <h2><a href="components/1/component.html">Component</a></h2>
+    </div>
+</section>
+<section class="component1" id="2">
+    <div class="top">
+        <h2 class="title">CTA</h2>
+        <div class="imageTop">
+            <img src="img/cta.jpg" alt="CTA">
         </div>
-        <div class="cta">
-            <h2><a href="components/1/component.html">Component</a></h2>
+    </div>
+    <article class="bottom">
+        <h2 class="titleCenter1">Target Audience</h2>
+        <p class="para">This is a photography site. The target audience here men from the ages of 25-50.  The main target audience is men going through
+            their mid-life crisis.  Looking for something fun to liven up their lives and make them feel young again.
+            These are men in an urban environment with enough money to understand the high end things in life.  One of the pictures on the slide
+            show is a young attractive woman, which is used to entice the men.  I'd say the range of income would be between
+            25,000 a year and 80,000 a year.
+        </p>
+        <h2 class="titleCenter1">Client Goals | User Needs</h2>
+        <p class="para">The client goals are to create an artistic approach to photography and get you to "read more" information they have to showcase.
+            This is basically a showcase site with tons of photography with a well placed geometric design.  They want you to fall in love with their photographs
+            in order to make you think that it is not the content of the picture but the way it was taken.  This meshes well with the user goals,
+            which are to bring their memories to life in the most stylish way possible.  The user wants a clean and crisp picture of their past, so that is
+            how the client is portraying their photographs.  </p>
+        <h2 class="titleCenter1">Design Critique</h2>
+        <p class="para">The call to action is clean and crisp.  They have an image behind the CTA which portrays the premium of their work.  A sans-serif font was used
+            which promotes a clean, modern and friendly attitude.  The custom font used for the beginning of the CTA shows a creative approach to a modern
+            way of life.  The color orange combines the energy of red and the happiness of yellow which really brings to life the way the user
+            would like to feel when they are looking at their photos.  The read more button starts out as an outline, but when you hover over it there is
+            an animation that turns it into yellow.  This provokes a coming to life feeling which again makes you feel like the client can make your
+            photos come to life.  </p>
+    </article>
+    <div class="cta">
+        <h2><a href="http://www.templatemonster.com/demo/53878.html">Live Demo</a></h2>
+    </div>
+    <div class="cta">
+        <h2><a href="components/2/component.html">Component</a></h2>
+    </div>
+</section>
+<section class="component1" id="3">
+    <div class="top">
+        <h2 class="title">Photo Gallery</h2>
+        <div class="imageTop">
+            <img src="img/photoGallery.jpg" alt="PhotoGallery">
         </div>
-    </section>
-    <section class="component1" id="2">
-        <div class="top">
-            <h2 class="title">CTA</h2>
-            <div class="imageTop">
-                <img src="img/cta.jpg" alt="CTA">
-            </div>
+    </div>
+    <article class="bottom">
+        <h2 class="titleCenter1">Target Audience</h2>
+        <p class="para">This is a Travel Site.  The target audience is people with enough money to travel.  They are middle to upper-class families.  Couples from the ages of 40-60 years old.
+            audience is adventurous and does not mind being frivolous with their money.  These are people that have lived a working life and been successful
+            at their jobs.  They are from a suburban environment and make an annual income of between $70,000 and up.
+            These people have fast internet speeds and have the capability of surfing images with no problem.
+        </p>
+        <h2 class="titleCenter1">Client Goals | User Needs</h2>
+        <p class="para">The goals of the client are to entice the user into using their travel guides.  They accomplish this with good photography.  Information
+            is provided for the images and when clicked the image blows up.  The user goal is information.  When the user is traveling they want to be guided through
+            the country in an informative matter.  Brand identity is important to this client.</p>
+        <h2 class="titleCenter1">Design Critique</h2>
+        <p class="para">This photo gallery is begun with an "upstanding" serif font which tells me that they want to be trusted with their information.  These photos
+            are reliable, these photos are real and not photo-shopped.  They then continue with a modern sans-serif font which brings in the feeling that these people will help
+            you get your objective accomplished.  They will guide you through the country and describe what you are seeing and make you feel stable while they
+            do it.  The pictures are very beautiful and surrounded by a white border.  This white border conveys purity and a successful beginning.  "This trip will
+            be a success if you go with us.", is the feeling I get from them.</p>
+    </article>
+    <div class="cta">
+        <h2><a href="http://www.templatemonster.com/demo/54906.html">Live Demo</a></h2>
+    </div>
+    <div class="cta">
+        <h2><a href="components/3/component.html">Component</a></h2>
+    </div>
+</section>
+<section class="component1" id="4">
+    <div class="top">
+        <h2 class="title">E-Commerce Navigation</h2>
+        <div class="imageTop">
+            <img src="img/eCommerceNav.jpg" alt="E-Commerce Navigation">
         </div>
-        <article class="bottom">
-            <h2 class="titleCenter1">Target Audience</h2>
-            <p class="para">This is a photography site. The target audience here men from the ages of 25-50.  The main target audience is men going through
-                their mid-life crisis.  Looking for something fun to liven up their lives and make them feel young again.
-                These are men in an urban environment with enough money to understand the high end things in life.  One of the pictures on the slide
-                show is a young attractive woman, which is used to entice the men.  I'd say the range of income would be between
-                25,000 a year and 80,000 a year.
-            </p>
-            <h2 class="titleCenter1">Client Goals | User Needs</h2>
-            <p class="para">The client goals are to create an artistic approach to photography and get you to "read more" information they have to showcase.
-                This is basically a showcase site with tons of photography with a well placed geometric design.  They want you to fall in love with their photographs
-                in order to make you think that it is not the content of the picture but the way it was taken.  This meshes well with the user goals,
-                which are to bring their memories to life in the most stylish way possible.  The user wants a clean and crisp picture of their past, so that is
-                how the client is portraying their photographs.  </p>
-            <h2 class="titleCenter1">Design Critique</h2>
-            <p class="para">The call to action is clean and crisp.  They have an image behind the CTA which portrays the premium of their work.  A sans-serif font was used
-                which promotes a clean, modern and friendly attitude.  The custom font used for the beginning of the CTA shows a creative approach to a modern
-                way of life.  The color orange combines the energy of red and the happiness of yellow which really brings to life the way the user
-                would like to feel when they are looking at their photos.  The read more button starts out as an outline, but when you hover over it there is
-                an animation that turns it into yellow.  This provokes a coming to life feeling which again makes you feel like the client can make your
-                photos come to life.  </p>
-        </article>
-        <div class="cta">
-            <h2><a href="http://www.templatemonster.com/demo/53878.html">Live Demo</a></h2>
+    </div>
+    <article class="bottom">
+        <h2 class="titleCenter1">Target Audience</h2>
+        <p class="para">This is a E-Commerce site selling musical equipment.  The target audience is men from the ages of 18-35.  The client is targeting the
+            low to middle classes.  The site looks very modern and expensive but the prices are low making one feel like they are getting the highest quality
+            of merchandise.  Urban environments are targeted here.  Users with precise taste are targeted here, men that know what they want and need a way to get it.</p>
+        <h2 class="titleCenter1">Client Goals | User Needs</h2>
+        <p class="para">The Client goals are to sell merchandise.  This is an E-Commerce site, so their main goal is to move their merchandise and make money while doing so.
+            The user goals are to find a musical accessory that they need.  They have new, sale and hot tags inviting the user to click on that link and buy their equipment.  </p>
+        <h2 class="titleCenter1">Design Critique</h2>
+        <p class="para">This navigation is sleek and minimal.  The design is modern and minimalistic.  They use black as their background color for the buttons.  Black is
+            a symbol of perspective and depth.  Artists generally label themselves as deep beings.  The dark-grey/ black fits in well with their psyche.
+            Sans-Serif font used trying to give a feeling of getting things done and modern thinking.  They have a red "new" and a red "hot" label on a couple of the buttons.
+            Black combined with red is a very powerful color scheme and will draw the users attention quite well.  Red symbolizes desire, passion and love which is what
+            I believe the client is going for.  The active-button font color is yellow, which I disagree with because men view this color as unstable and not prestigious.
+            It works with lower classes, but upper classes might be dismissive of this color as the active link.  On the flip side, yellow stimulates mental activity so
+            the user wants your mind to be active when viewing the page.</p>
+    </article>
+    <div class="cta">
+        <h2><a href="http://www.templatemonster.com/demo/55016.html">Live Demo</a></h2>
+    </div>
+    <div class="cta">
+        <h2><a href="components/4/component.html">Component</a></h2>
+    </div>
+</section>
+<section class="component1" id="5">
+    <div class="top">
+        <h2 class="title">About Us</h2>
+        <div class="imageTop">
+            <img src="img/about.jpg" alt="PhotoGallery">
         </div>
-        <div class="cta">
-            <h2><a href="components/2/component.html">Component</a></h2>
+    </div>
+    <article class="bottom">
+        <h2 class="titleCenter1">Target Audience</h2>
+        <p class="para">A consulting firm who needs clients with a little bit of money to ask their advice on what to do.
+            Middle to upper class people are targeted here.  Single men and women from age 30-45 is the main group of people targeted.  Urban or Suburban environments
+            are the key locations, leaving out the country and any low population area.</p>
+        <h2 class="titleCenter1">Client Goals | User Needs</h2>
+        <p class="para">The goals of the client are to get you to pay for information that they want you to believe you can't get on your own.
+            The user goals are to get good advice on subjects they are lacking in.  The users first believe by just going to the site is that they cannot obtain the same
+            information, so the client has one up on them in this case.  </p>
+        <h2 class="titleCenter1">Design Critique</h2>
+        <p class="para">The color is white which advocates innocence and promotes good business ethics.  There is no border around the pictures,
+            which to me means that what you see is what you get. The font is sans-serif and geometric which says that they stay between the lines,
+            but they will get the job done.  The paragraph font is light-weight, elegant and soft.  The all around feeling I get is of an unobtrusive approach
+            to aiding in whatever you need help in.  The layout is geometric and they have a vertical rule of thirds going on which is pretty pleasing to the eye.</p>
+    </article>
+    <div class="cta">
+        <h2><a href="http://www.templatemonster.com/demo/55115.html">Live Demo</a></h2>
+    </div>
+    <div class="cta">
+        <h2><a href="components/5/component.html">Component</a></h2>
+    </div>
+</section>
+<section class="component1" id="6">
+    <div class="top">
+        <h2 class="title">Blog</h2>
+        <div class="imageTop">
+            <img src="img/blog.jpg" alt="Blog">
         </div>
-    </section>
-    <section class="component1" id="3">
-        <div class="top">
-            <h2 class="title">Photo Gallery</h2>
-            <div class="imageTop">
-                <img src="img/photoGallery.jpg" alt="PhotoGallery">
-            </div>
+    </div>
+    <article class="bottom">
+        <h2 class="titleCenter1">Target Audience</h2>
+        <p class="para">The target audience for this site would be younger crowd in an urban environment who likes to rock.  I think this group
+            leans a little bit more to the chaotic side rather than order.  This group will be from an urban environment and between the ages of 15 and 30.  Lower to middle class with an average income of $15,000.
+            The site is after men looking for more information on the band that is being showcased.  Most of the audience will come direct and not out of
+            search results.  </p>
+        <h2 class="titleCenter1">Client Goals | User Needs</h2>
+        <p class="para">The client goals include getting their brand out there.  They want to provide a space where fans of the band
+            can come and get better acquainted with the different artists involved.  They want more people at the concerts and want to create
+            a well informed fan base.  The user needs are to learn more about the artists and get information on the band that they like.
+            The clients ultimate goal is to make money by informing the fans of the band and getting them out to the concerts to buy tickets and
+            memorabilia.  The users ultimate goal is curiosity about their band.</p>
+        <h2 class="titleCenter1">Design Critique</h2>
+        <p class="para">The title text is bold and a form of cursive, it looks like it could be a mixture of script and handwritten.
+            One way or the other it is an approachable font.  It is a mix of casual and sophisticated.  The paragraph font is
+            a sans-serif font.  I think that they compete a little bit, but the difference isn't enough to be overly distracting.
+            The color black is used to be mysterious and makes the picture in the blog stand out a little bit.  The black background
+            also makes the text jump out at you a little bit.  They use white font and then a shade of grey for the date, name
+            and hits.  These differences make the actual information look less important; I'm glad they used white on both the title
+            and the paragraph though.  I think there are too many different variations of font for my taste, it looks crowded.</p>
+    </article>
+    <div class="cta">
+        <h2><a href="http://www.templatemonster.com/demo/54765.html">Live Demo</a></h2>
+    </div>
+    <div class="cta">
+        <h2><a href="components/6/component.html">Component</a></h2>
+    </div>
+</section>
+<section class="component1" id="7">
+    <div class="top">
+        <h2 class="title">Registration Form</h2>
+        <div class="imageTop">
+            <img src="img/login.jpg" alt="Registration Form">
         </div>
-        <article class="bottom">
-            <h2 class="titleCenter1">Target Audience</h2>
-            <p class="para">This is a Travel Site.  The target audience is people with enough money to travel.  They are middle to upper-class families.  Couples from the ages of 40-60 years old.
-                audience is adventurous and does not mind being frivolous with their money.  These are people that have lived a working life and been successful
-                at their jobs.  They are from a suburban environment and make an annual income of between $70,000 and up.
-                These people have fast internet speeds and have the capability of surfing images with no problem.
-            </p>
-            <h2 class="titleCenter1">Client Goals | User Needs</h2>
-            <p class="para">The goals of the client are to entice the user into using their travel guides.  They accomplish this with good photography.  Information
-                is provided for the images and when clicked the image blows up.  The user goal is information.  When the user is traveling they want to be guided through
-                the country in an informative matter.  Brand identity is important to this client.</p>
-            <h2 class="titleCenter1">Design Critique</h2>
-            <p class="para">This photo gallery is begun with an "upstanding" serif font which tells me that they want to be trusted with their information.  These photos
-                are reliable, these photos are real and not photo-shopped.  They then continue with a modern sans-serif font which brings in the feeling that these people will help
-                you get your objective accomplished.  They will guide you through the country and describe what you are seeing and make you feel stable while they
-                do it.  The pictures are very beautiful and surrounded by a white border.  This white border conveys purity and a successful beginning.  "This trip will
-                be a success if you go with us.", is the feeling I get from them.</p>
-        </article>
-        <div class="cta">
-            <h2><a href="http://www.templatemonster.com/demo/54906.html">Live Demo</a></h2>
-        </div>
-        <div class="cta">
-            <h2><a href="components/3/component.html">Component</a></h2>
-        </div>
-    </section>
-    <section class="component1" id="4">
-        <div class="top">
-            <h2 class="title">E-Commerce Navigation</h2>
-                <div class="imageTop">
-                    <img src="img/eCommerceNav.jpg" alt="E-Commerce Navigation">
-                </div>
-        </div>
-        <article class="bottom">
-            <h2 class="titleCenter1">Target Audience</h2>
-            <p class="para">This is a E-Commerce site selling musical equipment.  The target audience is men from the ages of 18-35.  The client is targeting the
-                low to middle classes.  The site looks very modern and expensive but the prices are low making one feel like they are getting the highest quality
-                of merchandise.  Urban environments are targeted here.  Users with precise taste are targeted here, men that know what they want and need a way to get it.</p>
-            <h2 class="titleCenter1">Client Goals | User Needs</h2>
-            <p class="para">The Client goals are to sell merchandise.  This is an E-Commerce site, so their main goal is to move their merchandise and make money while doing so.
-                The user goals are to find a musical accessory that they need.  They have new, sale and hot tags inviting the user to click on that link and buy their equipment.  </p>
-            <h2 class="titleCenter1">Design Critique</h2>
-            <p class="para">This navigation is sleek and minimal.  The design is modern and minimalistic.  They use black as their background color for the buttons.  Black is
-                a symbol of perspective and depth.  Artists generally label themselves as deep beings.  The dark-grey/ black fits in well with their psyche.
-                Sans-Serif font used trying to give a feeling of getting things done and modern thinking.  They have a red "new" and a red "hot" label on a couple of the buttons.
-                Black combined with red is a very powerful color scheme and will draw the users attention quite well.  Red symbolizes desire, passion and love which is what
-                I believe the client is going for.  The active-button font color is yellow, which I disagree with because men view this color as unstable and not prestigious.
-                It works with lower classes, but upper classes might be dismissive of this color as the active link.  On the flip side, yellow stimulates mental activity so
-                the user wants your mind to be active when viewing the page.</p>
-        </article>
-        <div class="cta">
-            <h2><a href="http://www.templatemonster.com/demo/55016.html">Live Demo</a></h2>
-        </div>
-        <div class="cta">
-            <h2><a href="components/4/component.html">Component</a></h2>
-        </div>
-    </section>
-    <section class="component1" id="5">
-        <div class="top">
-            <h2 class="title">About Us</h2>
-            <div class="imageTop">
-                <img src="img/about.jpg" alt="PhotoGallery">
-            </div>
-        </div>
-        <article class="bottom">
-            <h2 class="titleCenter1">Target Audience</h2>
-            <p class="para">A consulting firm who needs clients with a little bit of money to ask their advice on what to do.
-                Middle to upper class people are targeted here.  Single men and women from age 30-45 is the main group of people targeted.  Urban or Suburban environments
-                are the key locations, leaving out the country and any low population area.</p>
-            <h2 class="titleCenter1">Client Goals | User Needs</h2>
-            <p class="para">The goals of the client are to get you to pay for information that they want you to believe you can't get on your own.
-                The user goals are to get good advice on subjects they are lacking in.  The users first believe by just going to the site is that they cannot obtain the same
-                information, so the client has one up on them in this case.  </p>
-            <h2 class="titleCenter1">Design Critique</h2>
-            <p class="para">The color is white which advocates innocence and promotes good business ethics.  There is no border around the pictures,
-                which to me means that what you see is what you get. The font is sans-serif and geometric which says that they stay between the lines,
-                but they will get the job done.  The paragraph font is light-weight, elegant and soft.  The all around feeling I get is of an unobtrusive approach
-                to aiding in whatever you need help in.  The layout is geometric and they have a vertical rule of thirds going on which is pretty pleasing to the eye.</p>
-        </article>
-        <div class="cta">
-            <h2><a href="http://www.templatemonster.com/demo/55115.html">Live Demo</a></h2>
-        </div>
-        <div class="cta">
-            <h2><a href="components/5/component.html">Component</a></h2>
-        </div>
-    </section>
-    <section class="component1" id="6">
-        <div class="top">
-            <h2 class="title">Blog</h2>
-            <div class="imageTop">
-                <img src="img/blog.jpg" alt="Blog">
-            </div>
-        </div>
-        <article class="bottom">
-            <h2 class="titleCenter1">Target Audience</h2>
-            <p class="para">The target audience for this site would be younger crowd in an urban environment who likes to rock.  I think this group
-                leans a little bit more to the chaotic side rather than order.  This group will be from an urban environment and between the ages of 15 and 30.  Lower to middle class with an average income of $15,000.
-                The site is after men looking for more information on the band that is being showcased.  Most of the audience will come direct and not out of
-                search results.  </p>
-            <h2 class="titleCenter1">Client Goals | User Needs</h2>
-            <p class="para">The client goals include getting their brand out there.  They want to provide a space where fans of the band
-                can come and get better acquainted with the different artists involved.  They want more people at the concerts and want to create
-                a well informed fan base.  The user needs are to learn more about the artists and get information on the band that they like.
-                The clients ultimate goal is to make money by informing the fans of the band and getting them out to the concerts to buy tickets and
-                memorabilia.  The users ultimate goal is curiosity about their band.</p>
-            <h2 class="titleCenter1">Design Critique</h2>
-            <p class="para">The title text is bold and a form of cursive, it looks like it could be a mixture of script and handwritten.
-                One way or the other it is an approachable font.  It is a mix of casual and sophisticated.  The paragraph font is
-                a sans-serif font.  I think that they compete a little bit, but the difference isn't enough to be overly distracting.
-                The color black is used to be mysterious and makes the picture in the blog stand out a little bit.  The black background
-                also makes the text jump out at you a little bit.  They use white font and then a shade of grey for the date, name
-                and hits.  These differences make the actual information look less important; I'm glad they used white on both the title
-                and the paragraph though.  I think there are too many different variations of font for my taste, it looks crowded.</p>
-        </article>
-        <div class="cta">
-            <h2><a href="http://www.templatemonster.com/demo/54765.html">Live Demo</a></h2>
-        </div>
-        <div class="cta">
-            <h2><a href="components/6/component.html">Component</a></h2>
-        </div>
-    </section>
-    <section class="component1" id="7">
-        <div class="top">
-            <h2 class="title">Registration Form</h2>
-            <div class="imageTop">
-                <img src="img/login.jpg" alt="Registration Form">
-            </div>
-        </div>
-        <article class="bottom">
-            <h2 class="titleCenter1">Target Audience</h2>
-            <p class="para">The target audience for this radio station website is men and women from the ages 20-35.  The class of people on targeted for this site
+    </div>
+    <article class="bottom">
+        <h2 class="titleCenter1">Target Audience</h2>
+        <p class="para">The target audience for this radio station website is men and women from the ages 20-35.  The class of people on targeted for this site
             are middle class with an income of between $15,000 and $50,000.  These people live in an urban environment are from the icon age where most is understood
-                with a little image rather than having to write it out.  These are visual people and accustomed to a little more order in their lives.</p>
-            <h2 class="titleCenter1">Client Goals | User Needs</h2>
-            <p class="para">The client is trying to get you to register to their site.  The site is an online music site so the overall goal is to get the user
+            with a little image rather than having to write it out.  These are visual people and accustomed to a little more order in their lives.</p>
+        <h2 class="titleCenter1">Client Goals | User Needs</h2>
+        <p class="para">The client is trying to get you to register to their site.  The site is an online music site so the overall goal is to get the user
             to pay money to listen to their music.  The user needs are to listen to commercial free music without any blips in their entertainment.</p>
-            <h2 class="titleCenter1">Design Critique</h2>
-            <p class="para">The color scheme is grey, white and lime green.  Green is the color of the get started button.  Green is a color of growth and is a restful color
+        <h2 class="titleCenter1">Design Critique</h2>
+        <p class="para">The color scheme is grey, white and lime green.  Green is the color of the get started button.  Green is a color of growth and is a restful color
             for the human eye.  It will grab your attention and make you want to click on it.  The font is also a little bolder on the button bringing with it a
             sense of strength.  The san-serif font at the top brings a little elegance to the Registration form. All of the letters are uppercase creating a more streamlined look.
             The use of icons is strong and promotes a feel of self satisfaction.  Icons make me feel like your solving a little puzzle and it makes me feel good about myself.
             The elements are all centered on the page creating a fluid flow from the top of the form to the bottom of the form.  Well done.</p>
-        </article>
-        <div class="cta">
-            <h2><a href="http://www.templatemonster.com/demo/54983.html">Live Demo</a></h2>
+    </article>
+    <div class="cta">
+        <h2><a href="http://www.templatemonster.com/demo/54983.html">Live Demo</a></h2>
+    </div>
+    <div class="cta">
+        <h2><a href="components/7/component.html">Component</a></h2>
+    </div>
+</section>
+<section class="component1" id="8">
+    <div class="top">
+        <h2 class="title">Footer</h2>
+        <div class="imageTop">
+            <img src="img/footer.jpg" alt="Footer">
         </div>
-        <div class="cta">
-            <h2><a href="components/7/component.html">Component</a></h2>
-        </div>
-    </section>
-    <section class="component1" id="8">
-        <div class="top">
-            <h2 class="title">Footer</h2>
-            <div class="imageTop">
-                <img src="img/footer.jpg" alt="Footer">
-            </div>
-        </div>
-        <article class="bottom">
-            <h2 class="titleCenter1">Target Audience</h2>
-            <p class="para">The target audience for this landscape design company is homeowners between the ages 35-65.  They have enough money to be able to afford
+    </div>
+    <article class="bottom">
+        <h2 class="titleCenter1">Target Audience</h2>
+        <p class="para">The target audience for this landscape design company is homeowners between the ages 35-65.  They have enough money to be able to afford
             nicely designed and landscaped lawns.  They are targeting the upper class who lives in a suburban atmosphere.  </p>
-            <h2 class="titleCenter1">Client Goals | User Needs</h2>
-            <p class="para">The goals of the client are to attract business to this landscape design company.  The need of the users is to get an upscale lawn
+        <h2 class="titleCenter1">Client Goals | User Needs</h2>
+        <p class="para">The goals of the client are to attract business to this landscape design company.  The need of the users is to get an upscale lawn
             that all of their neighbors will be jealous of.  The client wants to make money on landscaping lawns and the user wants their lawn landscaped, this is a pretty easy sell.</p>
-            <h2 class="titleCenter1">Design Critique</h2>
-            <p class="para">The color dark blue represents integrity, power and knowledge.  Dark blue is associated with expertise making the user think that
+        <h2 class="titleCenter1">Design Critique</h2>
+        <p class="para">The color dark blue represents integrity, power and knowledge.  Dark blue is associated with expertise making the user think that
             these landscaping people are experts at their field.  The contrasting light blue for the contact button is associated with healing and understanding.  Contact us and we will understand your
             needs and heal your lawn.  They use a serif font for the copyright and name of the company creating a little continuity between the two.  On the right there are simple
             social icons for the company.  The up arrow on the right flips around and shows a green arrow with a white background.  The spacing looks a little
             unbalanced I would like to see a stronger hold on the rule of thirds for this footer.  I do appreciate the simplicity of all the white space or blue space in this
             instance.</p>
-        </article>
-        <div class="cta">
-            <h2><a href="http://www.templatemonster.com/demo/53937.html">Live Demo</a></h2>
+    </article>
+    <div class="cta">
+        <h2><a href="http://www.templatemonster.com/demo/53937.html">Live Demo</a></h2>
+    </div>
+    <div class="cta">
+        <h2><a href="components/8/component.html">Component</a></h2>
+    </div>
+</section>
+<section class="component1" id="9">
+    <div class="top">
+        <h2 class="title">Contact Form</h2>
+        <div class="imageTop">
+            <img src="img/contactForm.jpg" alt="Contact Form">
         </div>
-        <div class="cta">
-            <h2><a href="components/8/component.html">Component</a></h2>
-        </div>
-    </section>
-    <section class="component1" id="9">
-        <div class="top">
-            <h2 class="title">Contact Form</h2>
-            <div class="imageTop">
-                <img src="img/contactForm.jpg" alt="Contact Form">
-            </div>
-        </div>
-        <article class="bottom">
-            <h2 class="titleCenter1">Target Audience</h2>
-            <p class="para">For this home improvement website, only the highest bidders will make the cut.  They are targeting people in New York as we can tell with the map.  The upper-middle and upper class are targeted here with income
+    </div>
+    <article class="bottom">
+        <h2 class="titleCenter1">Target Audience</h2>
+        <p class="para">For this home improvement website, only the highest bidders will make the cut.  They are targeting people in New York as we can tell with the map.  The upper-middle and upper class are targeted here with income
             from $50,000 to the upper $100's.  The location for this group is upscale urban or rich suburbia.  The target age group must be able to afford the amenities that they
             provide, but I think this site targets the young newly rich.  They target singles that want to stand out in a crowd.</p>
-            <h2 class="titleCenter1">Client Goals | User Needs</h2>
-            <p class="para">The clients goals here are to sell upscale home renovations.  They want your name, email and a message about what you are looking for.  The client shows
+        <h2 class="titleCenter1">Client Goals | User Needs</h2>
+        <p class="para">The clients goals here are to sell upscale home renovations.  They want your name, email and a message about what you are looking for.  The client shows
             you a location to ferret out all of the people that are not in the area.  The user wants to get their home remodeled.  The user wants to upgrade and the site
             convinces them of the ability to do so.</p>
-            <h2 class="titleCenter1">Design Critique</h2>
-            <p class="para">I love the dark colors of this design with the contrasting yellow.  The different shades of grey promote compromise.  They
+        <h2 class="titleCenter1">Design Critique</h2>
+        <p class="para">I love the dark colors of this design with the contrasting yellow.  The different shades of grey promote compromise.  They
             want to set a balance between the way they want to improve your home and the way you want to improve the home.  The client wants the user to know
             that there is a middle ground that will be met on and the process will not be difficult.  Grey is safe and toned down, the contrasting yellow color is one of energy
             and happiness.  Yellow evokes cheerful feelings and brings you back to the positive side of home improvement, the improvements.  They use yellow as the
             location for the business on the map and for the send button.  The map is greyed out with the yellow locator, meaning they are the light of the area.  They are the
             beacon of hope.  The rule of thirds is invoked making it very pleasing to the eye.  The left two-thirds being the form and the right one-third being the map.  </p>
-        </article>
-        <div class="cta">
-            <h2><a href="http://www.templatemonster.com/demo/55144.html">Live Demo</a></h2>
+    </article>
+    <div class="cta">
+        <h2><a href="http://www.templatemonster.com/demo/55144.html">Live Demo</a></h2>
+    </div>
+    <div class="cta">
+        <h2><a href="components/9/component.html">Component</a></h2>
+    </div>
+</section>
+<section class="component1" id="10">
+    <div class="top">
+        <h2 class="title">Meet and Greet</h2>
+        <div class="imageTop">
+            <img src="img/orange_meet.jpg" alt="Meet and Greet">
         </div>
-        <div class="cta">
-            <h2><a href="components/9/component.html">Component</a></h2>
-        </div>
-    </section>
-    <section class="component1" id="10">
-        <div class="top">
-            <h2 class="title">Meet and Greet</h2>
-            <div class="imageTop">
-                <img src="img/orange_meet.jpg" alt="Meet and Greet">
-            </div>
-        </div>
-        <article class="bottom">
-            <h2 class="titleCenter1">Target Audience</h2>
-            <p class="para">This is a website for land appraisal.  They are targeting middle to upper-class families who have young children on the ground.  These are
+    </div>
+    <article class="bottom">
+        <h2 class="titleCenter1">Target Audience</h2>
+        <p class="para">This is a website for land appraisal.  They are targeting middle to upper-class families who have young children on the ground.  These are
             well to do couples who are in the market for buying a new house because their family is expanding.  The age group is from 30-40 and the location is suburban.
             The user is going to be a play it safe and take one thing at a time kind of couple.  They will have fast internet and the smarts to navigate a complicated site.</p>
-            <h2 class="titleCenter1">Client Goals | User Needs</h2>
-            <p class="para">The client goals are to let the user meet the team that is going to be helping them out through the appraisal.  They are trying to gain revenue
+        <h2 class="titleCenter1">Client Goals | User Needs</h2>
+        <p class="para">The client goals are to let the user meet the team that is going to be helping them out through the appraisal.  They are trying to gain revenue
             by selling a product, home appraisal.  The user is trying to sell their house.  They want to do this the best way possible, which is why they're looking for an
             appraisal.  The user wants to get the most out of their house and so does the client because the more the house is worth, the more each of them is paid.</p>
-            <h2 class="titleCenter1">Design Critique</h2>
-            <p class="para">Everything in this section is on center which creates a fluid layout.  The only thing off center is the green up arrow on the bottom right of the screen.
+        <h2 class="titleCenter1">Design Critique</h2>
+        <p class="para">Everything in this section is on center which creates a fluid layout.  The only thing off center is the green up arrow on the bottom right of the screen.
             This arrow is an inviting green color because they will get their money from the top of the site and not from this about section.  The background orange stimulates
             mental activity and as your mind is active and done learning about the team, your eye then travels down to the green up arrow and points towards a
             way to get the goal accomplished, for both sides.  The circular images speak of unity and the bringing together of client and user.  Green symbolizes
             growth and in this sense it is symbolizing the growth of your family with an appraisal and a new house quick to come.</p>
-        </article>
-        <div class="cta">
-            <h2><a href="http://www.templatemonster.com/demo/54618.html">Live Demo</a></h2>
-        </div>
-        <div class="cta">
-            <h2><a href="components/10/component.html">Component</a></h2>
-        </div>
-    </section>
-</div>
+    </article>
+    <div class="cta">
+        <h2><a href="http://www.templatemonster.com/demo/54618.html">Live Demo</a></h2>
+    </div>
+    <div class="cta">
+        <h2><a href="components/10/component.html">Component</a></h2>
+    </div>
+</section>
+<script>
+    if("ontouchstart" in window){
+        document.documentElement.className = document.documentElement.className + " touch";
+    }
+    if(!$("html").hasClass("touch")){
+        /* background fix */
+        $(".parallax").css("background-attachment", "fixed");
+    }
+
+    /* fix vertical when not overflow
+     call fullscreenFix() if .fullscreen content changes */
+    function fullscreenFix(){
+        var h = $('body').height();
+// set .fullscreen height
+        $(".content-b").each(function(i){
+            if($(this).innerHeight() <= h){
+                $(this).closest(".fullscreen").addClass("not-overflow");
+            }
+        });
+    }
+    $(window).resize(fullscreenFix);
+    fullscreenFix();
+
+    /* resize background images */
+    function backgroundResize(){
+        var windowH = $(window).height();
+        $(".background").each(function(i){
+            var path = $(this);
+// variables
+            var contW = path.width();
+            var contH = path.height();
+            var imgW = path.attr("data-img-width");
+            var imgH = path.attr("data-img-height");
+            var ratio = imgW / imgH;
+// overflowing difference
+            var diff = parseFloat(path.attr("data-diff"));
+            diff = diff ? diff : 0;
+// remaining height to have fullscreen image only on parallax
+            var remainingH = 0;
+            if(path.hasClass("parallax") && !$("html").hasClass("touch")){
+                var maxH = contH > windowH ? contH : windowH;
+                remainingH = windowH - contH;
+            }
+// set img values depending on cont
+            imgH = contH + remainingH + diff;
+            imgW = imgH * ratio;
+// fix when too large
+            if(contW > imgW){
+                imgW = contW;
+                imgH = imgW / ratio;
+            }
+//
+            path.data("resized-imgW", imgW);
+            path.data("resized-imgH", imgH);
+            path.css("background-size", imgW + "px " + imgH + "px");
+        });
+    }
+    $(window).resize(backgroundResize);
+    $(window).focus(backgroundResize);
+    backgroundResize();
+
+    /* set parallax background-position */
+    function parallaxPosition(e){
+        var heightWindow = $(window).height();
+        var topWindow = $(window).scrollTop();
+        var bottomWindow = topWindow + heightWindow;
+        var currentWindow = (topWindow + bottomWindow) / 2;
+        $(".parallax").each(function(i){
+            var path = $(this);
+            var height = path.height();
+            var top = path.offset().top;
+            var bottom = top + height;
+// only when in range
+            if(bottomWindow > top && topWindow < bottom){
+                var imgW = path.data("resized-imgW");
+                var imgH = path.data("resized-imgH");
+// min when image touch top of window
+                var min = 0;
+// max when image touch bottom of window
+                var max = - imgH + heightWindow;
+// overflow changes parallax
+                var overflowH = height < heightWindow ? imgH - height : imgH - heightWindow; // fix height on overflow
+                top = top - overflowH;
+                bottom = bottom + overflowH;
+// value with linear interpolation
+                var value = min + (max - min) * (currentWindow - top) / (bottom - top);
+// set background-position
+                var orizontalPosition = path.attr("data-oriz-pos");
+                orizontalPosition = orizontalPosition ? orizontalPosition : "50%";
+                $(this).css("background-position", orizontalPosition + " " + value + "px");
+            }
+        });
+    }
+</script>
 </body>
 </html>
