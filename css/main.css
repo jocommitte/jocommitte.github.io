@@ -6,6 +6,7 @@ body{
     /*max-width: 1440px;*/
     font:100% Helvetica Neu, sans-serif;
     margin:0 auto;
+    height:100%;
     background-color: #0F7885;
 }
 #wrapper{
@@ -14,7 +15,7 @@ body{
     /*overflow:hidden;*/
 
 }
-section, article, header, footer, nav, aside, hgroup {
+section, article, header, footer, nav, aside, {
     display: block;
 }
 
@@ -24,7 +25,6 @@ header{
     margin: 0;
     padding: 0;
     background-color: #282828;
-
     overflow: hidden;
 }
 
@@ -188,14 +188,14 @@ a:hover, a:active {
     background-position:50% 50%9 !important;
 }
 /* fullscreen setup */
-html, body {
-    /* give this to all tags from html to .fullscreen */
-    height:100%;
-}
-.fullscreen,
+
 .content-a {
     width:80%;
     min-height:100%;
+    border-bottom:2px solid black;
+    overflow:hidden;
+    display:table;
+    margin:0 auto;
 }
 .not-fullscreen,
 .not-fullscreen .content-a,
@@ -205,7 +205,7 @@ html, body {
     overflow:hidden;
 }
 
-/* content centering styles */
+ content centering styles
 .content-a {
     display:table;
     margin:0 auto;
