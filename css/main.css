@@ -205,7 +205,7 @@ a:hover, a:active {
     overflow:hidden;
 }
 
- content centering styles
+ /*content centering styles*/
 .content-a {
     display:table;
     margin:0 auto;

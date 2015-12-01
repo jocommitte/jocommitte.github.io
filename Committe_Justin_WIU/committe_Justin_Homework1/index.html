@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+    <title>HTML5 Drawing</title>
+<!--    <script src="js/main.js"></script>-->
+
+    <script src="includes/modernizr.js"></script>
+    <script>
+      if (!Modernizr.canvas) {
+        alert("No canvas here");
+      }
+    </script>
+</head>
+<body>
+    <div id="container">
+        <h1>HTML5 Canvas Drawing</h1>
+    </div>
+    <canvas id="myCanvas"></canvas>
+    <canvas id="myCircle"></canvas>
+    <canvas id="myStar"></canvas>
+    <canvas id='myBrella'></canvas>
+    <canvas id='myText'></canvas>
+    <canvas id="myImage"></canvas>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
+<script src="js/main.js"></script>
+</body>
+</html>
