@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Tooltipster by Justin Committe</title>
+
+		<meta name="description" content="A powerful, flexible JQuery plugin for creating semantic tooltips.">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/moon.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/styles/sunburst.css">
+        <link rel="stylesheet" href="css/style.css">
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				
+				<section>
+					<h1>Tooltipster</h1>
+					<i>"A powerful, flexible jQuery plugin enabling you to easily create semantic, modern tooltips enhanced with the power of CSS."</i>
+					<h6>Developed and maintained by Caleb Jacob and Louis Ameline under the MIT license</h6>
+					<h2>Presentation by Justin Committe</h2>
+
+				</section>
+                <section>
+                    <p>Tooltipster allows you to do things many things, such as:</p>
+                    <ul>
+                        <li>The default settings</li>
+                        <li>Custom hide/show triggers</li>
+                        <li>Custom themes and animations</li>
+                        <li>Interaction with tooltips</li>
+                        <li>Multiple tooltips on a single element</li>
+                        <li>Fixed width, position and HTML</li>
+                        <li>Disable touch devices</li>
+                        <li>Custom callbacks</li>
+                        <li>Attach tooltips to icons</li>
+                    </ul>
+                </section>
+                <section>
+                    <section>
+                        <h1>Setting it up in the &lt;head&gt; of your document</h1>
+                    </section>
+                    <section>
+                        <h5>First you need to load the stylesheets for Tooltipster and any themes you will use.</h5>
+                        <pre><code>
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; 
+href=&quot;../css/themes/tooltipster-noir.css&quot;/&gt;
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; 
+href=&quot;../css/themes/my-custom-theme.css&quot;/&gt;
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; 
+href=&quot;../css/tooltipster.css&quot; /&gt;
+
+                      </code></pre>
+                    </section>
+                    <section>
+                        <h5>Next load jquery and then Tooltipster Script files.</h5>                        
+                        <pre><code>
+&lt;script type=&quot;text/javascript&quot; 
+src=&quot;http://code.jquery.com/jquery-1.7.0.min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; 
+src=&quot;../js/jquery.tooltipster.js&quot;&gt;&lt;/script&gt;
+                      </code></pre>
+                    </section>
+                    <section>
+                        <h5>The final thing we need to do is activate Tooltipster and add our own javaScript script link.</h5>
+                        <h6>You can use any selector you would like to use, 
+                        in this case we're using .tooltip</h6>
+                        
+                        <pre><code>
+&lt;script type=&quot;text/javascript&quot;&gt;
+&#x9;&#x9;$(document).ready(function() {
+&#x9;&#x9;&#x9;$(&apos;.tooltip&apos;).tooltipster();
+&#x9;&#x9;});&#x9;
+&lt;/script&gt;
+
+&lt;script type=&quot;text/javascript&quot; 
+src=&quot;../js/script.js&quot;&gt;&lt;/script&gt;
+                        </code></pre>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h1>Examples</h1>
+                    </section>
+                    <section>
+                        <h2>Custom Theme</h2>
+                        <h6>HTML</h6>
+                        <pre><code>
+&lt;section id=&quot;myMap&quot; class=&quot;container&quot; title=&quot;My Custom Theme&quot;&gt;
+        
+&lt;/section&gt;
+                        </code></pre>
+                        <h6>JavaScript</h6>
+                        <pre><code>
+$('#myMap').tooltipster({
+        content:'my custom theme',
+        theme: 'my-custom-theme'
+    });                        
+                        </code></pre>
+                    </section>
+                    <section>
+                        <h2>CSS for custom theme</h2>
+                        <h6>CSS needs to be in the themes folder in a custom theme file.</h6>
+                        <pre><code>
+.my-custom-theme {
+    border-radius: 10px;
+    border: 3px solid blue;
+    background: lightBlue;
+    color: white;
+}
+.my-custom-theme .tooltipster-content {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    padding: 12px 15px;
+}                        
+                        </code></pre>
+                    </section>
+                    <section>
+                        <h2>Simple tool tip</h2>
+                        <pre><code>
+&lt;h1 class=&quot;tooltip&quot; title=&quot;my H1&quot;&gt;My ToolTipster Example&lt;/h1&gt;
+                        </code></pre>
+                    </section>
+                    <section>
+                        <h2>Simple tooltip added to a link</h2>
+                        <pre><code>
+&lt;a href=&quot;http://iamceege.github.io/tooltipster/&quot; class=&quot;tooltip&quot; 
+title=&quot;Tooltipster Link&quot;&gt;Tooltipster&lt;/a&gt;                        
+                        </code></pre>
+                    </section>
+                    <section>
+                        <h3>Tooltip with a different theme and HTML added through javaScript</h3>
+                        <pre><code>
+&lt;div class=&quot;container&quot; id=&quot;my-tooltip&quot;&gt;
+        You can even embed html inside of your tooltips, which can give you images!!!
+&lt;/div&gt;                   
+                        </code></pre>
+                        <h3>Javascript</h3>
+                        <pre><code>
+$('#my-tooltip').tooltipster({
+    content: $('&lt;span&gt;&lt;img src=&quot;../images/baby.jpg&quot; /&gt; 
+    &lt;strong&gt;This is my baby, Victoria, in a different theme called noir
+    &lt;/strong&gt;&lt;/span&gt;'),
+    theme:'tooltipster-noir'
+});                        
+                        </code></pre>
+                    </section>
+                    <section>
+                        <h2>Tool tipping with a map!!</h2>
+                        <pre><code>
+&lt;section class=&quot;container&quot;&gt;
+&#x9;&#x9;&lt;img src=&quot;../images/planetMap.jpg&quot; usemap=&quot;#map&quot; class=&quot;tooltip map&quot; title=&quot;Map of the Universe&quot; /&gt;
+&#x9;&#x9;&lt;map name=&quot;map&quot;&gt;
+            &lt;area shape=&quot;circle&quot; coords=&quot;105,455,25&quot; href=&quot;#&quot; id=&quot;mercury&quot; class=&quot;tooltip&quot; title=&quot;Mercury!&quot;/&gt;
+            &lt;area shape=&quot;circle&quot; coords=&quot;220,438,48&quot; href=&quot;#&quot; id=&quot;venus&quot; class=&quot;tooltip&quot; title=&quot;Venus!&quot;/&gt;
+            &lt;area shape=&quot;circle&quot; coords=&quot;342,395,43&quot; href=&quot;#&quot; id=&quot;earth&quot; class=&quot;tooltip&quot; title=&quot;Earth!&quot;/&gt;
+            &lt;area shape=&quot;circle&quot; coords=&quot;440,350,30&quot; href=&quot;#&quot; id=&quot;mars&quot; class=&quot;tooltip&quot; title=&quot;Mars!&quot;/&gt;
+            &lt;area shape=&quot;circle&quot; coords=&quot;458,205,82&quot; href=&quot;#&quot; id=&quot;jupiter&quot; class=&quot;tooltip&quot; title=&quot;Jupiter!&quot;/&gt;
+            &lt;area shape=&quot;circle&quot; coords=&quot;600,335,76&quot; href=&quot;#&quot; id=&quot;saturn&quot; class=&quot;tooltip&quot; title=&quot;Saturn!&quot;/&gt;
+            &lt;area shape=&quot;circle&quot; coords=&quot;290,126,60&quot; href=&quot;#&quot; id=&quot;uranus&quot; class=&quot;tooltip&quot; title=&quot;Uranus!&quot;/&gt;
+            &lt;area shape=&quot;circle&quot; coords=&quot;708,163,50&quot; href=&quot;#&quot; id=&quot;neptune&quot; class=&quot;tooltip&quot; title=&quot;Neptune!&quot;/&gt;
+            &lt;area shape=&quot;circle&quot; coords=&quot;595,90,28&quot; href=&quot;#&quot; id=&quot;pluto&quot; class=&quot;tooltip&quot; title=&quot;Pluto!&quot;/&gt;
+            &lt;area shape=&quot;circle&quot; coords=&quot;110,370,165&quot; href=&quot;#&quot; id=&quot;sun&quot; class=&quot;tooltip&quot; title=&quot;Sun!&quot; /&gt;
+&#x9;&lt;/map&gt;
+&lt;/section&gt;
+                        </code></pre>
+                    </section>
+                </section>
+    		    <section>
+                    <h1>CSS</h1>
+                    <pre><code>
+body {
+	background-color: #dcdcdc;
+	color: #0b0b0b;
+	font-size: 16px;
+	line-height: 22px;
+
+}
+
+.container, #container {
+	width: 978px;
+	margin: 10px auto;
+	padding: 60px;
+	border: 1px solid black;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+	background: #fff;
+	text-align: left;
+	display: block;
+	overflow: hidden;
+}
+.item {
+	width: 200px;
+	float: left;
+	padding: 10px;
+	margin: 10px;
+	background: #000;
+	color: #fff;
+}
+h1{
+	font-size: 54px;
+	margin:50px;
+	display:block;
+    color:black;
+}
+.map{
+    display:block;
+    /*width:800px;*/
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 5%;
+}
+
+                    </code></pre>
+                </section>
+                <section>
+                    <a href="http://iamceege.github.io/tooltipster/" target="_blank">Download ToolTipster Here!!</a>
+                </section>
+                	
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
