@@ -1,0 +1,12 @@
+.my-custom-theme {
+    border-radius: 10px;
+    border: 3px solid blue;
+    background: lightBlue;
+    color: white;
+}
+.my-custom-theme .tooltipster-content {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    padding: 12px 15px;
+}
