@@ -1,0 +1,91 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>QVC presents Ragdolls</title>
+    <meta name="description" content="QVC Ragdolls | Ragdoll kittens in Johns Creek Georgia">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link href="http://fonts.googleapis.com/css?family=Contrail+One" rel="stylesheet" type="text/css" />
+    <link href='https://fonts.googleapis.com/css?family=Petit+Formal+Script' rel='stylesheet' type='text/css' />
+
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <script>
+        if (!Modernizr.canvas) {
+            alert("No canvas here");
+        }
+        if (!Modernizr.video){
+            alert("No HTML5 Video here")
+        }
+    </script>
+
+</head>
+<body>
+<!--[if lt IE 8]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+<header>
+    <canvas id='myText'></canvas>
+    <h2>Ragdolls</h2>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="video.html">Video</a></li>
+            <li><a href="images.html">Gallery</a></li>
+            <li><a href="barChart.html">Stats</a></li>
+        </ul>
+    </nav>
+</header>
+<div class="not-fullscreen background parallax" style="    background-image: url(images/pagnePar.jpg);" data-img-width="1600" data-img-height="1064" data-diff="100">
+    <!-- About -->
+    <section class="me content-a">
+        <h3><a id="show" href="#">Show Video</a></h3>
+        <video width="960" height="540" controls>
+            <source src="videos/kitties.mp4" type="video/mp4">
+            <source src="videos/kitties.ogv" type="video/ogv">
+            Video is not supported
+        </video>
+        <h3><a id="hide" href="#">Hide Video</a></h3>
+
+
+
+    </section>
+</div>
+<section class="component1" id="1">
+    <div id="myLife">
+        <h2 class="titleCenter">Ragdolls</h2>
+        <p class="para">The Ragdoll is a cat breed with blue eyes and a distinct colorpoint coat. It is a large and muscular semi-longhair
+            cat with a soft and silky coat. Developed by American breeder Ann Baker, it is best known for its docile and placid
+            temperament and affectionate nature. The name "Ragdoll" is derived from the tendency of individuals from the original breeding
+            stock to go limp and relaxed when picked up. Particularly popular in both the United Kingdom and the breeds' native United States,
+            ragdoll cats often are known as "dog-like cats" or "puppy-like cats" due to behaviors such as their tendency to follow people around,
+            their ease at being physically handled, and their relative lack of aggression toward other pets.</p>
+        <div class="cta">
+            <a href="images.html">Image Gallery</a>
+            <a href="barChart.html">Stats</a>
+        </div>
+    </div>
+    <div id="myPic">
+        <img src="images/gallery/3_fullsize.jpg" alt="Me and the mommy, Pagne">
+    </div>
+</section>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+<script>
+    var canvas = document.getElementById('myText');
+    var context = canvas.getContext('2d');
+
+    context.font = '60pt Cursive';
+    context.fillStyle = "#B3DEE8";
+    context.fillText('QVC', 60, 100);
+</script>
+</body>
+</html>
